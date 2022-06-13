@@ -1,0 +1,139 @@
+/* Основний текст #212121 */
+/* Другорядний #757575 */
+/* Білий #FFFFFF */
+/* Акцент #2196F3 */
+/* Другорядний колір #FFFFFF 60 % */
+/* Logo #000000 */
+
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --fon-second: #FFFFFF;
+    --accent: #2196F3;
+    --logo-color: #000000;
+    --bg-color: #E5E5E5;
+
+
+}
+
+/* body */
+
+body {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    background-color: var(--bg-color);
+    color: var(--main-color)
+   
+
+
+}
+
+h1 {
+    color: var(--fon-second);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align:center
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+ 
+
+ul {
+    list-style: none;
+}
+ button {
+     cursor: pointer;
+ }
+
+
+
+/* LOGO */
+
+.logo {
+    color: var(--logo-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+}
+.logo:hover,
+.logo:focus {
+    color: var(--accent)
+}
+
+/* Nav */
+ 
+
+.nav:hover,
+.nav:focus {
+    color: var(--accent);
+
+}
+
+  .nav,
+  .nav portfolio,
+  .nav contacts {
+      color: var(--main-color);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.17;
+  }
+
+
+/* Features */
+
+   .title-features {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;   
+}
+
+
+   .text-features {
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Team */
+
+ .team-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.team-text {
+color: var(--secondary-color);  
+font-size: 16px;
+line-height: 1.19;
+
+}
+
+/* footer */
+
+.address-text {
+    font-style: normal;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
