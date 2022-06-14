@@ -23,11 +23,6 @@ body {
     font-size: 14px;
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    
-  
-   
-
-
 }
 
 h1 {
@@ -74,11 +69,28 @@ span {
 
 /* Nav */
  
+.nav-contact {
+    color: var(--secondary-color);
+  
+}
+
+
+
+.nav-contact:hover,
+.nav-contact:focus {
+    color: var(--accent);
+}
+
 
 .nav:hover,
 .nav:focus {
     color: var(--accent);
 
+}
+
+
+.contact {
+    color: #757575;
 }
 
   .nav {
@@ -88,6 +100,9 @@ span {
       line-height: 1.17;
       text-decoration-line: none;
   }
+
+  
+
 
  
   /* Банер */
@@ -170,7 +185,17 @@ line-height: 1.19;
     
 }
  
- 
+ .logo-footer {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+     font-size: 26px;
+    line-height: 1.2;
+    text-decoration-line: none;
+ }
+
+
+
 
 
  
