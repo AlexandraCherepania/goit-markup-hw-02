@@ -71,7 +71,14 @@ span {
  
 .nav-contact {
     color: var(--secondary-color);
-  
+     text-decoration-line: none;   
+}
+
+
+
+.contacts {
+    font-weight: 500;
+
 }
 
 
@@ -182,7 +189,12 @@ line-height: 1.19;
 .footer-text{
     color: var(--fon-second);
     text-decoration-line: none;
+
     
+}
+.footer-text:hover,
+.footer-text:focus {
+    color: var(--accent);
 }
  
  .logo-footer {
